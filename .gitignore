@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,3 +22,38 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+out/
+
+# Ignore Docker artifacts
+.dockerignore
+.docker/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Ignore logs
+*.log
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore npm lock files
+package-lock.json
+yarn.lock
+>>>>>>> c3a839674bed0afe89906101af591fbafc09289e
